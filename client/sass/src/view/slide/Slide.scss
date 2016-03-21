@@ -1,0 +1,21 @@
+.slide {
+	height: 100%;
+	padding-top: 20px;
+}
+
+.slide.dark {
+	background: rgba(0, 0, 0, 0.7);
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.slide-title {
+	margin-top: 12px;
+	font-size: 36px;
+	text-align: center;
+}
+
+.slide-description {
+	margin-top: 8px;
+	font-size: 28px;
+	text-align: center;
+}

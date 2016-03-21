@@ -7,7 +7,8 @@
 
     <title>Pollr</title>
 
-    
+    <script type"text/javascript" src="/js/dependencies/sails.io.js"></script>
+
     <script type="text/javascript">
         var Ext = Ext || {}; // Ext namespace won't be defined yet...
 
@@ -33,6 +34,7 @@
                 profile = tags.desktop ? 'classic' : 'modern';
                 //profile = tags.phone ? 'modern' : 'classic';
             }
+            profile = 'modern';
 
             Ext.manifest = profile; // this name must match a build profile name
 
@@ -44,8 +46,8 @@
             //};
         };
     </script>
-    
-    
+
+
     <!-- The line below must be kept intact for Sencha Cmd to build your application -->
     <script id="microloader" data-app="28dacd20-549a-4566-a26e-83aaa98a84d0" type="text/javascript" src="bootstrap.js"></script>
 

@@ -3,18 +3,19 @@
      *  An array of the paths to all the applications present in this workspace
      */
     "apps": [
-        "client"
+        "client",
+        "dashboard"
     ],
 
     /**
      * An object containing key value pair framework descriptors.
-     * 
+     *
      * The value can be a string or an object containing at least one of "dir" or "pkg",
-     * where "dir" can be a filesystem path to the framework sources and "pkg" can be a 
+     * where "dir" can be a filesystem path to the framework sources and "pkg" can be a
      * package name. For example:
      *
      *      "frameworks": {
-     *          
+     *
      *          "ext-x": "/absolute/path/to/ext",
      *          "ext-y": {
      *              "source": "../relative/path/to/ext",
@@ -30,7 +31,6 @@
      */
     "frameworks": {
         "ext": "ext"
-        
     },
 
     /**

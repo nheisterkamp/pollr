@@ -21,4 +21,20 @@ module.exports = {
   //   connection: 'someMongodbServer'
   // }
 
+  models: {
+    migrate: 'alter'
+  }
+
+  // cors: {
+  //   allRoutes: true,
+  //   origin: '*',
+  //   methods: 'GET, POST, PUT, DELETE, OPTIONS, HEAD',
+  //   headers: 'content-type,x-requested-with',
+  // },
+
+  // appPath: require('path').join(__dirname, '..', '..', '..'),
+  // paths: {
+  //   public: ''
+  // }
+
 };

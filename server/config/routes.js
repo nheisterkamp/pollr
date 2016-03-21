@@ -32,9 +32,12 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': {
-    view: 'homepage'
-  }
+  // '/': {
+  //   view: 'homepage'
+  // }
+
+  // 'GET /api/question/current': 'QuestionController.getCurrent',
+  // 'POST /api/question/current': 'QuestionController.setCurrent',
 
   /***************************************************************************
   *                                                                          *
